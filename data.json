@@ -1,0 +1,78 @@
+{
+  "patientName": "John Doe",
+  "settings": {
+    "outerRadius": 2.2,
+    "innerRadius": 2.5,
+    "episodeRadius": 3.2,
+    "allergyRadius": 6
+  },
+  "sleep": {
+    "start": 22,
+    "stop": 6
+  },
+  "elements": [
+    {
+      "type": "episode",
+      "name": "diabetes",
+      "severity": 10,
+      "tasks": [
+        {
+          "type": "medication",
+          "startHour": 22,
+          "endHour": 22
+        },
+        {
+          "type": "bloedwaarde",
+          "startHour": 7,
+          "endHour": 7
+        },
+        {
+          "type": "bloedwaarde",
+          "startHour": 14,
+          "endHour": 14
+        },
+        {
+          "type": "bloedwaarde",
+          "startHour": 21,
+          "endHour": 21
+        }
+      ]
+    },
+    {
+      "type": "episode",
+      "name": "atrose",
+      "severity": 5,
+      "tasks": [
+        {
+          "type": "medication",
+          "startHour": 6,
+          "endHour": 6
+        }
+      ]
+    },
+    {
+      "type": "episode",
+      "name": "Severe_headache",
+      "severity": 5,
+      "tasks": [
+        {
+          "type": "meeting",
+          "startHour": 9,
+          "endHour": 10
+        }
+      ]
+    },
+    {
+      "type": "allergy",
+      "name": "ampucillin",
+      "severity": 5,
+      "tasks": [
+        {
+          "type": "medication",
+          "startHour": 6,
+          "endHour": 6
+        }
+      ]
+    }
+  ]
+}
